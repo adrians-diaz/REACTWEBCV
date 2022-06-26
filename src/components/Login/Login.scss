@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Indie+Flower&family=Permanent+Marker&display=swap');
+
+.divForm{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    text-decoration: none;
+}
+h1, h2{
+    color: black;
+    gap: 1rem;
+    font-family: 'Permanent Marker';
+    font-size: 4rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    margin: 1rem;
+    width: 25vw;
+    height: 3.5vh;
+    border-radius: 100rem;
+    text-align: center;
+
+
+
+}
+
+figure{
+    background: rgb(0,215,255);
+background: linear-gradient(0deg, rgba(0,215,255,0.5942752100840336) 4%, rgba(45,253,247,1) 100%);
+        width: 50vw;
+       padding-bottom: 2rem;
+       @media only screen and (max-width: 600px){
+        display: block;
+        width: 100%;
+      
+        height: 100%;
+        margin: 1rem;
+        
+        
+      } 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 1px 1px 17px -1px rgba(220, 194, 255, 0.5) inset;
+  -webkit-box-shadow: 1px 1px 17px -1px rgba(220,194,255,0.5) inset;
+  -moz-box-shadow: 1px 1px 17px -1px rgba(220,194,255,0.5) inset;
+      border-radius: 50px;
+      margin: 2em 0;
+}

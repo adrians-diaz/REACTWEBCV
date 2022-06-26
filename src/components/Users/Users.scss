@@ -1,0 +1,23 @@
+
+.perfil{
+    background-image:url("https://semidotinfotech.com/web/images/FullStackDevelopmentCompany.jpg"), linear-gradient(90deg,rgb(1,7,58)0%, rgb(1,16,67) 60%,rgb(61,48,123) 90%, rgb(61,48,123) 106%);
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    &_data{
+        border: solid 3px black;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        padding: 2px;
+        margin: 2px;
+        width: 50vw;
+        height: 50vh;;
+
+    }
+}

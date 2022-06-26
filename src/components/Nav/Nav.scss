@@ -1,0 +1,109 @@
+
+
+
+.NavNoMostrar{
+    display: none;    
+}
+
+nav {
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0rem;
+    box-shadow: -8px 50px 79px -7px rgb(0,216,255);
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+        @media only screen and (max-width: 600px){
+            gap: 0.5rem;
+            padding-left: 3px;
+          }
+        li {
+            font-size: 2rem;
+            
+
+            text-decoration: none;
+            display: flex;
+            transition: all 0.6s;
+                text-decoration: none;
+                color: white;
+            
+
+             @media only screen and (max-width: 600px){
+                font-size: 1rem;
+                
+              }
+             
+        }
+        .spanBrilla{
+            color: white;
+        }
+        .spanBrilla:hover {
+            color: #00d8ff;
+            transition: all 2.5s;
+         }
+
+    }
+
+    img {
+        width: 10vw;
+        margin-right: 5rem;
+        @media only screen and (max-width: 600px){
+            gap: 0.5rem;
+            padding-left: 0px;
+            transform: 2;
+          }
+    }
+}
+
+.NavInferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+button{
+    margin: 0 auto;
+        width: 8rem;
+        height: 2rem;
+        color: white;
+        background-color: black;
+        font-size: 1rem;
+        border-bottom-right-radius: 5rem;
+        border-bottom-left-radius: 5rem;
+        box-shadow: -8px 50px 79px -7px rgb(0,216,255);
+        padding-bottom: 2rem;
+        margin-bottom: 40px;
+        padding-bottom: 4rem;
+        transition: all 0.5s;
+            &:hover {
+                color: #00d8ff;
+                background-color: #00d8ff;
+                transition: all 6.5s;
+                border-bottom-right-radius: 5rem;
+        border-bottom-left-radius: 5rem;
+        box-shadow: -8px 50px 79px -7px rgb(0,216,255);
+             }
+        
+}
+.NavInferior_boton_Down{
+    
+}
+.Asistente{
+    display: none;
+}
+
+.Visible{
+    display: flex;
+}
+
+.asistenteIco{
+    width: 4rem;
+}
